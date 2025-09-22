@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.hero-btn{
+    width: 120px;
+    padding: 18px 24px;
+    border-radius: 24px;
+    border: none;
+    background-color: rgb(52, 183, 226);
+    transition: ease-in-out 0.3s;
+}
+
+.grid-container{
+    display: grid;
+    gap: 24x;
+    grid-template-columns: repeat(3,1fr);
+    padding: 120px 20px
+}
+
+.grid-list{
+    background-color: darkslategrey;
+    color: wheat;
+    padding: 20px 100px;
+}
