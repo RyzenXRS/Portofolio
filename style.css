@@ -89,6 +89,33 @@
     background-color: #52b7e3;
 }
 
+.contact {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.contact button {
+    padding: 12px 30px;
+    background-color: #349be2;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #2878b9;
+}
 
 
 header {
