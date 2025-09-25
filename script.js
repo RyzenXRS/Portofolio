@@ -1,9 +1,7 @@
-// Function to scroll to sections
 function scrollToSection(sectionId) {
     document.querySelector(`#${sectionId}`).scrollIntoView({ behavior: 'smooth' });
 }
 
-// Form Validation
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
