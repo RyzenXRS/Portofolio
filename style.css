@@ -69,17 +69,24 @@
     border-radius: 50%;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
-    gap: 24x;
-    grid-template-columns: repeat(3,1fr);
-    padding: 120px 20px
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 20px;
+    text-align: center;
 }
 
-.grid-list{
-    background-color: darkslategrey;
-    color: wheat;
-    padding: 20px 100px;
+.grid-list {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.grid-list:hover {
+    background-color: #52b7e3;
 }
 
 
